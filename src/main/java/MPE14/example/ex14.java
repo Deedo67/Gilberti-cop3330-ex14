@@ -25,14 +25,15 @@ public class ex14 {
 
         //math
         double finorder = order;
-        double fintax = 0.055;
+        double tax = 0.055;
+        double fintax = tax * order;
 
         //state check & output
-        if (state == "WI")
+        if (state.equals("WI"))
         {
             System.out.println("The subtotal is $"+String.format("%.2f", order)+".");
             System.out.println("The tax is $"+String.format("%.2f", fintax)+".");
-            finorder = order *
+            finorder = order + fintax;
         }
 
         //Output

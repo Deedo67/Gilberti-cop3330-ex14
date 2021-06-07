@@ -24,19 +24,18 @@ public class ex14 {
         double order = Double.parseDouble(strorder);
 
         //math
-        double tax = .05;
-
-        //Output
-        System.out.println("The total is $"+String.format("%.2f", order)+".");
+        double finorder = order;
+        double fintax = 0.055;
 
         //state check & output
         if (state == "WI")
         {
             System.out.println("The subtotal is $"+String.format("%.2f", order)+".");
+            System.out.println("The tax is $"+String.format("%.2f", fintax)+".");
+            finorder = order *
         }
-        else
-        {
 
-        }
+        //Output
+        System.out.println("The total is $"+String.format("%.2f", finorder)+".");
     }
 }

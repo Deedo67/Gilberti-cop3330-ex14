@@ -39,4 +39,6 @@ public class ex14 {
         //Output
         System.out.println("The total is $"+String.format("%.2f", finorder)+".");
     }
+    //main method end
 }
+//class end

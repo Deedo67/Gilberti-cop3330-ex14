@@ -23,8 +23,18 @@ public class ex14 {
         //string convert
         double order = Double.parseDouble(strorder);
 
-        //state check
-        if (state === "WI")
+        //math
+        double tax = .05;
+
+        //Output
+        System.out.println("The total is $"+String.format("%.2f", order)+".");
+
+        //state check & output
+        if (state == "WI")
+        {
+            System.out.println("The subtotal is $"+String.format("%.2f", order)+".");
+        }
+        else
         {
 
         }

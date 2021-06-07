@@ -20,5 +20,13 @@ public class ex14 {
         System.out.print("What is the state? ");
         String state = in.nextLine();
 
+        //string convert
+        double order = Double.parseDouble(strorder);
+
+        //state check
+        if (state === "WI")
+        {
+
+        }
     }
 }
